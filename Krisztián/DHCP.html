@@ -6,6 +6,17 @@
     <title>Dynamic Host Configuration Protocol</title>
 </head>
 <body>
-    
+    <h1>DHCP</h1>
+        <p>A DHCP (Dynamic Host Configuration Protocol) egy olyan hálózati szabvány, amely automatikusan kiosztja az IP-címeket és más kapcsolódó beállításokat (például a DNS-kiszolgáló címét, az alhálózati maszkot vagy az alapértelmezett átjárót) a hálózatba kapcsolódó eszközök számára. Ennek köszönhetően a rendszergazdáknak nem kell kézzel konfigurálniuk minden egyes készüléket, így csökken a hibázás lehetősége, gyorsabb a folyamat, és az eszközök zökkenőmentesen kommunikálhatnak egymással és az internettel.</p>
+    <h1>DHCP folyamat</h1>
+    <p>DHCP-kérés:<br>
+Amikor egy eszköz csatlakozik a hálózathoz, vagy új IP-címre van szüksége, DHCPDISCOVER üzenetet küld, jelezve igényét.</p>
+    <p>DHCP-ajánlat:<br>
+A hálózaton futó DHCP-kiszolgáló egy DHCPOFFER üzenetben visszaküldi a felajánlott, elérhető IP-címet.</p>
+    <p>IP-cím igénylése: <br>
+Az eszköz DHCPREQUEST üzenettel közli, hogy elfogadja az adott IP-címet.</p>
+    <p>DHCP-megerősítés: <br>
+A kiszolgáló DHCPACK üzenettel véglegesíti a kiosztást, és megadja a szükséges kiegészítő beállításokat (például DNS, alhálózati maszk, átjáró).</p>
+
 </body>
 </html>
